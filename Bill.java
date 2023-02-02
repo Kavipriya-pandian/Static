@@ -1,9 +1,9 @@
 package dxc;
 
 public class Bill {
-	static int counter;
-	String BillId;
-	String paymentMode;
+	private static int counter;
+	private String BillId;
+	private String paymentMode;
 	static
 	{
 		counter=9000;
